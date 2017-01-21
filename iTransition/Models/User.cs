@@ -11,5 +11,7 @@ namespace iTransition.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
+        public string E_mail { get; set; }
+        public string Password { get; set; }
     }
 }
