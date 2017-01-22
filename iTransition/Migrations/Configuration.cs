@@ -16,9 +16,9 @@ namespace iTransition.Migrations
         protected override void Seed(iTransition.Models.iTransitionContext context)
         {
             context.Users.AddOrUpdate(x => x.Id,
-            new User() { Id = 1, Name = "Evgen Shkelev" },
-            new User() { Id = 2, Name = "Evgen Rimashevski" },
-            new User() { Id = 3, Name = "Ilya Vasilevich" }
+            new User() { Id = 1, Name = "Evgen Shkelev", E_mail = "sorkoni@mail.ru", Password = "User1" },
+            new User() { Id = 2, Name = "Evgen Rimashevski", E_mail = "try1@mail.ru", Password = "User2" },
+            new User() { Id = 3, Name = "Ilya Vasilevich", E_mail = "try2@mail.ru", Password = "User3" }
             );
 
             context.Sites.AddOrUpdate(x => x.Id,

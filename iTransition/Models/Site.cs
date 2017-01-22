@@ -13,6 +13,7 @@ namespace iTransition.Models
         public string Title { get; set; }
         public int Year { get; set; }
         public string Description { get; set; }
+        public string Path { get; set; }
 
         // Foreign Key
         public int UserId { get; set; }
